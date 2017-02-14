@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var content = {
+var articleOne = {
   title : 'articleOne',
   heading : 'Death Note',
   content : 'WE ARE ALL EQUAL IN THE EYES OF THE REAPER.'
