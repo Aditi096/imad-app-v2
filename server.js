@@ -9,13 +9,14 @@ var articleOne = {
   title : 'articleOne',
   heading : 'Death Note',
   content : `
-        <div class="center">
-            <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
-        </div>
         <br><br>
         <p class="center text-big bold">
             <h1>WE ARE ALL EQUAL IN THE EYES OF THE REAPER.</h1>
-        </p>`
+        </p>
+        <br><br>
+        <div class="center">
+            <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
+        </div>`
 };
 
 
