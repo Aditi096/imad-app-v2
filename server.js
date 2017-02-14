@@ -9,7 +9,6 @@ var articleOne = {
   title : 'articleOne',
   heading : 'Death Note',
   content : `
-        <br><br>
         <p class="center text-big bold">
             <h1>WE ARE ALL EQUAL IN THE EYES OF THE REAPER.</h1>
         </p>
