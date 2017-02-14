@@ -5,6 +5,12 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+/*var content = {
+  title : articleOne,
+  heading : Death Note,
+  content : 'WE ARE ALL EQUAL IN THE EYES OF THE REAPER.'
+};*/
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
