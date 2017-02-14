@@ -11,30 +11,46 @@ var content = {
   content : 'WE ARE ALL EQUAL IN THE EYES OF THE REAPER.'
 };
 
-var htmlTemplate = {
-    <html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="center">
-            <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
-        </div>
-        <br>
-        <div class="center text-big bold">
-            Working hard is important.<br> 
-            But there is something that matters more:<br>
-            <h1>BELIEVING IN YOURSELF</h1>
-                        -Harry Potter
-        </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
-</html>
-};
+
+function createTemplate(data) {
+    var title = data.title;
+    var heading = data.heading;
+    var content = data.content;
+    
+    var htmlTemplate = `
+        <html>
+        <head>
+            <title>
+                ${title}
+            </title>
+            <meta name='viewport' content='width=device-width , initial-scale=1' />
+            <link href="/ui/style.css" rel="stylesheet" />
+        </head>
+        <body>
+            <div class='container'>
+            <div>
+                <a href="/">Home</a>
+            </div>
+            <hr/>
+            <h3>
+                ${heading}
+            </h3>
+            <div>
+                ${content}
+            </div>
+            </div>
+        </body>
+    </html>
+    `;
+    return htmlTemplate;
+}
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+
+app.get('/article-one', function(req,res) {
+ res.send(createTemplate(articleOne));   
 });
 
 app.get('/ui/style.css', function (req, res) {
