@@ -12,6 +12,7 @@ var articleOne = {
         <div class="center">
             <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
         </div>
+        <br><br>
             WE ARE ALL EQUAL IN THE EYES OF THE REAPER.`
 };
 
