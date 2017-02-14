@@ -8,7 +8,11 @@ app.use(morgan('combined'));
 var articleOne = {
   title : 'articleOne',
   heading : 'Death Note',
-  content : 'WE ARE ALL EQUAL IN THE EYES OF THE REAPER.'
+  content : `
+        <div class="center">
+            <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
+        </div>
+            WE ARE ALL EQUAL IN THE EYES OF THE REAPER.`
 };
 
 
