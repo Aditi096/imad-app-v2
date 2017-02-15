@@ -18,8 +18,12 @@ var articles = {
                 <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
             </div>`
     },
-    'article-two' : {},
-    'article-three' : {}
+    'article-two' : {
+        
+    },
+    'article-three' : {
+        
+    }
 };
 
 
