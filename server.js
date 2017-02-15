@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-     articleOne : {
+     'article-one' : {
       title : 'articleOne',
       heading : 'Death Note',
       content : `
@@ -18,8 +18,8 @@ var articles = {
                 <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
             </div>`
     },
-    articleTwo : {},
-    articleThree : {}
+    'article-two' : {},
+    'article-three' : {}
 };
 
 
@@ -60,8 +60,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one', function(req,res) {
- res.send(createTemplate(articleOne));   
+app.get('/articleName', function(req,res) {
+ res.send(createTemplate(articles[articleName]));   
 });
 
 app.get('/ui/style.css', function (req, res) {
