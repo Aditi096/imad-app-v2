@@ -13,7 +13,7 @@ var articles = {
             <p class="center text-big bold">
                 <h1>WE ARE ALL EQUAL IN THE EYES OF THE REAPER.</h1>
             </p>
-            <br><br>
+            <br>
             <div class="center">
                 <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
             </div>`
@@ -25,7 +25,7 @@ var articles = {
             <p class="center text-big bold">
                 <h1>Bored<br>Cunning<br>Secretive<br>Intelligent<br>Double-sided<br>Manipulative</h1>
             </p>
-            <br><br>
+            <br>
             <div class="center">
                 <img src="http://superfunnyquotes.com/images/460776/ws8_light_death_note_quo.jpg" class="img-medium"/>
             </div>`
@@ -37,7 +37,7 @@ var articles = {
             <p class="center text-big bold">
                 <h1>Calm<br>Thoughtful<br>Misunderstood<br>Determined<br>Confident<br>Kind-hearted<br>Different</h1>
             </p>
-            <br><br>
+            <br>
             <div class="center">
                 <img src="http://cdn.quotesgram.com/img/96/62/489100441-922_L.jpg" class="img-medium"/>
             </div>`
@@ -65,9 +65,9 @@ function createTemplate(data) {
                 <a href="/">Home</a>
             </div>
             <hr/>
-            <h3>
+            <h1>
                 ${heading}
-            </h3>
+            </h1>
             <div>
                 ${content}
             </div>
