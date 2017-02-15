@@ -6,10 +6,10 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-     'article-one' : {
-      title : 'articleOne',
-      heading : 'Death Note',
-      content : `
+    'article-one' : {
+        title : 'articleOne',
+        heading : 'Death Note',
+        content : `
             <p class="center text-big bold">
                 <h1>WE ARE ALL EQUAL IN THE EYES OF THE REAPER.</h1>
             </p>
@@ -19,10 +19,28 @@ var articles = {
             </div>`
     },
     'article-two' : {
-        
+        title : 'articleTwo',
+        heading : 'LIGHT YAGAMI',
+        content : `
+            <p class="center text-big bold">
+                <h1>Bored<br>Cunning<br>Secretive<br>Intelligent<br>Double-sided<br>Manipulative</h1>
+            </p>
+            <br><br>
+            <div class="center">
+                <img src="http://superfunnyquotes.com/images/460776/ws8_light_death_note_quo.jpg" class="img-medium"/>
+            </div>`
     },
     'article-three' : {
-        
+        title : 'articleThree',
+        heading : 'L',
+        content : `
+            <p class="center text-big bold">
+                <h1>Calm<br>Thoughtful<br>Misunderstood<br>Determined<br>Confident<br>Kind-hearted<br>Different</h1>
+            </p>
+            <br><br>
+            <div class="center">
+                <img src="http://cdn.quotesgram.com/img/96/62/489100441-922_L.jpg" class="img-medium"/>
+            </div>`
     }
 };
 
