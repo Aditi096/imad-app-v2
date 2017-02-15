@@ -5,17 +5,21 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne = {
-  title : 'articleOne',
-  heading : 'Death Note',
-  content : `
-        <p class="center text-big bold">
-            <h1>WE ARE ALL EQUAL IN THE EYES OF THE REAPER.</h1>
-        </p>
-        <br><br>
-        <div class="center">
-            <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
-        </div>`
+var articles = {
+     articleOne : {
+      title : 'articleOne',
+      heading : 'Death Note',
+      content : `
+            <p class="center text-big bold">
+                <h1>WE ARE ALL EQUAL IN THE EYES OF THE REAPER.</h1>
+            </p>
+            <br><br>
+            <div class="center">
+                <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
+            </div>`
+    },
+    articleTwo : {},
+    articleThree : {}
 };
 
 
