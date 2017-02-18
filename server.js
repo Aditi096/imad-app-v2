@@ -15,7 +15,7 @@ var articles = {
             </p>
             <br>
             <div class="center">
-                <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
+                <img src="http://img06.deviantart.net/2317/i/2012/329/f/7/humans_are_so_interesting___ryuk_by_cathy416-d5m3yvs.jpg" class="img-medium"/>
             </div>`
     },
     'article-two' : {
