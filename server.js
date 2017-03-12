@@ -41,7 +41,22 @@ var articles = {
             <div class="center">
                 <img src="http://cdn.quotesgram.com/img/96/62/489100441-922_L.jpg" class="img-medium"/>
             </div>`
-    }
+    },
+    'article-four' : {
+        title : 'articleFour',
+        heading : '',
+        content : `
+            <div class="center">
+            <img src="https://img1.etsystatic.com/154/1/9820149/il_340x270.1141813627_brud.jpg" class="img-medium"/>
+        </div>
+        <br>
+        <div class="center text-big bold">
+            Working hard is important.<br> 
+            But there is something that matters more:<br>
+            <h1>BELIEVING IN YOURSELF</h1>
+                        -Harry Potter
+        </div>`
+    },
 };
 
 
